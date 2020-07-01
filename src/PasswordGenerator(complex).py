@@ -30,5 +30,5 @@ def generate_key3(num):
         passwordsc += string.printable[sc]
     return passwordsc
 
-#remember to remove spaces
+#remember to remove the spaces
 print ("Your new password is:",generate_key(4),generate_key2(4),generate_key3(4))
